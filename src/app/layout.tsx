@@ -11,6 +11,6 @@ export default function RootLayout({ children }: Readonly<Children>) {
 }
 
 export const metadata: Metadata = {
-  title: 'Snippet Master',
+  title: 'Snippet Storage',
   description: 'A snippet manager app to store and share snippets'
 }
