@@ -1,3 +1,5 @@
 export * from './logo'
 export * from './navbar'
 export * from './button'
+export * from './navlink'
+export * from './logged'

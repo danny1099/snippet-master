@@ -1,0 +1,11 @@
+{
+  "intro": {
+    "welcome": "Bienvenido a Snippet Storage!"
+  },
+  "authenticated": {
+    "sign_out": "Cerrar sesión",
+    "sign_in": "Iniciar sesión",
+    "sign_up": "Empecemos!",
+    "my_snippets": "Mis Snippets"
+  }
+}
