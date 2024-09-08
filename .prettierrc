@@ -3,5 +3,5 @@
   "trailingComma": "none",
   "singleQuote": true,
   "ternaryOperator": "off",
-  "printWidth": 100
+  "printWidth": 105
 }

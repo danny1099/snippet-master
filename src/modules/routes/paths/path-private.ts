@@ -5,8 +5,10 @@
 */
 
 export const privateRoutes = {
-  Snippets: 'private/ws/snippets',
-  Favorites: 'private/ws/favorites'
+  snippets: 'private/ws/snippets',
+  favorites: 'private/ws/favorites',
+  tags: 'private/ws/tags',
+  trash: 'private/ws/trash'
 }
 
 export type PrivateRoute = keyof typeof privateRoutes

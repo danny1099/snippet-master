@@ -1,12 +1,9 @@
-import { SignedIn } from '@clerk/nextjs'
+import { Heading } from '@/modules/common/components'
 
 export default function MySnippets() {
   return (
-    <div>
-      <h1>My Snippets</h1>
-      <SignedIn>
-        <p>You are signed in</p>
-      </SignedIn>
-    </div>
+    <section className="bg-secondary w-full h-[calc(100vh-80px)] flex px-9 py-2">
+      <Heading text="My Snippets" />
+    </section>
   )
 }

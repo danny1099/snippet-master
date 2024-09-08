@@ -8,8 +8,9 @@ export const ctaVariants = cva(
         primary: 'bg-primary text-primary-foreground',
         secondary: 'bg-secondary text-secondary-foreground',
         danger: 'bg-red-600 text-white',
-        outline: 'border border-border bg-background text-foreground',
-        ghost: 'bg-background border-none text-accent-foreground hover:bg-accent'
+        outline: 'bg-background text-foreground border border-border',
+        ghost: 'bg-background border-none text-accent-foreground hover:bg-accent',
+        link: 'bg-background border-none text-accent-foreground justify-start hover:bg-secondary hover:text-secondary-foreground'
       },
       size: {
         default: 'h-10 rounded-lg px-4 py-2',

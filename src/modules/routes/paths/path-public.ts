@@ -5,9 +5,9 @@
 */
 
 export const publicRoutes = {
-  Home: '/',
-  Sign_In: 'sign-in',
-  Get_Started: 'get-started'
+  home: '/',
+  sign_in: 'sign-in',
+  get_started: 'get-started'
 }
 
 export type PublicRoute = keyof typeof publicRoutes

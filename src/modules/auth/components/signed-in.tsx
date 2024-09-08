@@ -13,16 +13,12 @@ export const SignedIn = () => {
   return (
     <Fragment>
       <SignOutButton>
-        <Navlink
-          href={getPublicRoute('Home')}
-          variant="ghost"
-          className={isMobile ? 'hidden' : 'flex'}
-        >
+        <Navlink href={getPublicRoute('home')} variant="ghost" className={isMobile ? 'hidden' : 'flex'}>
           <span className="text-sm font-medium text-foreground">{t('sign_out')}</span>
         </Navlink>
       </SignOutButton>
 
-      <Navlink href={getPrivateRoute('Snippets')}>
+      <Navlink href={getPrivateRoute('snippets')}>
         <span className="flex flex-row gap-x-3 text-sm font-medium items-center">
           {t('my_snippets')}
           <UserButton />

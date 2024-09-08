@@ -7,5 +7,19 @@
     "sign_in": "Sign in",
     "sign_up": "Get started",
     "my_snippets": "My Snippets"
+  },
+  "aside": {
+    "quick_links": "Quick Links",
+    "languages": "Languages",
+    "options": {
+      "snippets": "My Snippets",
+      "favorites": "Favorites",
+      "tags": "Tags",
+      "trash": "Trash"
+    }
+  },
+  "topbar": {
+    "search": "Type something to search your snippets...",
+    "create": "Add Snippet"
   }
 }

@@ -21,5 +21,6 @@ export default function RootLayout({ children, params: { lang } }: Readonly<Prop
 
 export const metadata: Metadata = {
   title: 'Snippet Storage',
-  description: 'A snippet manager app to store and share snippets'
+  description: 'A snippet manager app to store and share snippets',
+  icons: '/images/logo-app.svg'
 }

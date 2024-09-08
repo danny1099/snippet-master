@@ -1,4 +1,5 @@
-import { Logo, Authenticated } from '@/modules/common/components'
+import { Logo } from '@/modules/common/components'
+import { Authenticated } from '@/modules/auth/components'
 
 export const Navbar = async () => {
   return (
