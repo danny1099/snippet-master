@@ -1,7 +1,8 @@
 'use client'
 import { useUser } from '@clerk/nextjs'
 import { useTranslations } from 'next-intl'
-import { Avatar, Input, Button, Icon } from '@/modules/common/components'
+import { Avatar, ThemeToggle } from '@/modules/common/components'
+import { InputSearch } from '@/modules/snippets/components'
 
 export const Topbar = () => {
   const { user } = useUser()
@@ -21,18 +22,15 @@ export const Topbar = () => {
       </div>
 
       <div className="flex w-3/5 h-full items-center px-2">
-        <Input
-          type="search"
-          placeholder={t('search')}
-          className="bg-accent"
-          slot="start"
+        <InputSearch
           icon="search"
+          textButton={t('create')}
+          placeholder={t('search')}
+          onClick={() => alert('create')}
         />
-        <Button variant="primary" className="absolute right-14">
-          <Icon icon="plus" className="size-4" />
-          <span className="text-xs">{t('create')}</span>
-        </Button>
       </div>
+
+      <ThemeToggle />
     </header>
   )
 }

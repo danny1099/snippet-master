@@ -2,23 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: rgb(255, 255, 255);
-  --foreground: #171717;
-  --primary: rgb(126, 34, 206);
-  --primary-foreground: rgb(255, 255, 255);
-  --secondary: rgb(245, 245, 245);
-  --secondary-foreground: rgb(39, 39, 42);
-  --accent: rgb(244, 244, 245);
-  --accent-foreground: rgb(114, 112, 112);
-  --border: rgb(243 244 246);
-  --radius: 0.25rem;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: rgb(255, 255, 255);
+    --foreground: #171717;
+    --primary: rgb(126, 34, 206);
+    --primary-foreground: rgb(255, 255, 255);
+    --secondary: rgb(245, 245, 245);
+    --secondary-foreground: rgb(39, 39, 42);
+    --accent: rgb(244, 244, 245);
+    --accent-foreground: rgb(114, 112, 112);
+    --border: rgb(243 244 246);
+    --radius: 0.25rem;
+  }
+
+  .dark {
+    --background: rgb(2 6 23);
+    --foreground: #f7f7f7;
+    --primary: rgb(88 28 135);
+    --primary-foreground: rgb(255, 255, 255);
+    --secondary: rgb(3, 11, 31);
+    --secondary-foreground: rgb(241 245 249);
+    --accent: rgb(15 23 42);
+    --accent-foreground: rgb(228 228 231);
+    --border: rgb(3, 11, 31);
+    --radius: 0.25rem;
   }
 }
 
